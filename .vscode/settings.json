@@ -1,0 +1,24 @@
+{
+    "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "pythonTestExplorer.testFramework": "unittest",
+    "pythonTestExplorer.testplanEnabled": true,
+    "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    ".theia": true,
+    ".vscode": true,
+    ".gitignore": true,
+    ".gtignore": true,
+    "gt_main_wrapper.py": true,
+    "__pycache__": true,
+    ".pytest_cache": true,
+    "run.sh": true,
+    "run_unittests.sh": true,
+    "LICENSE": true
+  }
+}

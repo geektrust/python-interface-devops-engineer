@@ -1,0 +1,6 @@
+.theia/
+.vscode/
+.gitignore
+.gtignore
+LICENSE
+run.sh
