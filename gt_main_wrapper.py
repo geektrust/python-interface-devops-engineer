@@ -28,7 +28,7 @@ def call_main():
         data = convert_input(command)
         output = main.aggregate_health_checks(data)
         sorted_output = _sort_results(_normalize(output))
-        s = json.dumps(sorted_output, default=lambda x: x.isoformat())
+        s = json.dumps(sorted_output, default=lambda x: x.isoformat(),separators=(',', ':'), indent=None)
         print(s)
 
 
